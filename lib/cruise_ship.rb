@@ -12,5 +12,6 @@ def select_winner(passengers)
     if key == :suite_a && value[0] == "A"
       winner = value
     end
+  winner
   end
 end
